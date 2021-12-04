@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Siscon</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Template Main CSS File -->
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+
+  <!-- Vendor JS Files -->
+  <%= javascript_include_tag 'js/bootstrap/bootstrap.min.js', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'js/bootstrap/popper.min.js', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'js/jquery/jquery-2.2.4.min.js', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'js/plugins/plugins.js', 'data-turbolinks-track': 'reload' %>
+
+  <!-- Template Main JS File -->
+  <%= javascript_include_tag 'active', 'data-turbolinks-track': 'reload' %>
+</html>
