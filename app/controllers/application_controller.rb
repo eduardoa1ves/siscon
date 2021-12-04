@@ -3,7 +3,4 @@ class ApplicationController < ActionController::Base
 		puts "Application Index"
 	end
 
-  def contact
-    puts "Teste"
-  end
 end
